@@ -42,8 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Services\ListAllSubscriberService.cs" />
+    <Compile Include="Managers\IManager.cs" />
+    <Compile Include="Services\PublisherService.cs" />
+    <Compile Include="Publishers\IPublisher.cs" />
+    <Compile Include="Publishers\Message.cs" />
+    <Compile Include="Managers\PubSubManager.cs" />
+    <Compile Include="Subscribers\EmailSubscriber.cs" />
+    <Compile Include="Subscribers\ISubscriber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subscribers\RESTSubscriber.cs" />
+    <Compile Include="Subscribers\ShellSubscriber.cs" />
+    <Compile Include="Subscribers\SmsSubscriber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
