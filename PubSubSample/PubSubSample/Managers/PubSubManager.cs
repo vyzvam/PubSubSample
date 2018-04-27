@@ -1,7 +1,9 @@
 ﻿using PubSubSample.Publishers;
 using PubSubSample.Services;
 using PubSubSample.Subscribers;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace PubSubSample.Managers
 {
@@ -38,6 +40,12 @@ namespace PubSubSample.Managers
 
         public void Start()
         {
+            if (_publisher == null)
+                throw new NullReferenceException("Publisher is not available!");
+
+            if (_subscribers == null || !_subscribers.Any())
+                throw new NullReferenceException("Subscriber(s)  not available!");
+
             _publisher.AddSubscribers(_subscribers);
         }
     }

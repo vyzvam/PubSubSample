@@ -9,7 +9,7 @@ to it's recipient(s) also referred to as subscribers.
 
 ## Summary
 This demonstration is done in c# and does not use external components.
-
+To view the simple demo, please checkout to the dev-01-simple branch.
 
 * These codes were developed on a windows 10 machine using visual studio 2017.
 
@@ -19,6 +19,7 @@ This demonstration is done in c# and does not use external components.
 1. .Net Framework 4.6
 2. NUnit 3.10.1
 3. NUnit3TestAdapter 3.10.0
+4. Moq 4.8.2
 
 
 ## Components
@@ -52,3 +53,12 @@ A pseudo service that can be used to send console messages
 ### SmsSubscriber
 A pseudo service that can implement a sms library to send short messages
 to subscribers.
+
+###ValidationProvider
+A simple validation provider PublisherValidator is available
+to validate publisher data.
+
+
+## Future consideration
+1. The solution infrastructure should be re-factored into multiple projects for code size efficiency and to be made shareable.
+2. The publisher abstraction can be introduced with generic to support data variety.
