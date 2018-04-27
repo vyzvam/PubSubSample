@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using PubSubSample.Publishers;
+using PubSubSample.Services;
+using PubSubSample.Subscribers;
+using System.Collections.Generic;
 
-namespace PubSubSample
+namespace PubSubSample.Managers
 {
     public class PubSubManager : IManager
     {

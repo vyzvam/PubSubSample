@@ -1,4 +1,4 @@
-﻿namespace PubSubSample
+﻿namespace PubSubSample.Services
 {
     public interface IService<T>
     {

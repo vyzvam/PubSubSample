@@ -1,4 +1,6 @@
-﻿namespace PubSubSample
+﻿using PubSubSample.Publishers;
+
+namespace PubSubSample.Services
 {
     public class PublisherService : IService<IPublisher>
     {

@@ -1,13 +1,14 @@
-﻿using System;
+﻿
+using System;
 using NUnit.Framework;
 
 namespace PubSubSampleTests
 {
     [TestFixture]
-    public class UnitTest1
+    public class PseudoUnitTest
     {
         [Test]
-        public void TestMethod1()
+        public void IsUnitTestWorking()
         {
 
             Assert.That("", Is.Empty);

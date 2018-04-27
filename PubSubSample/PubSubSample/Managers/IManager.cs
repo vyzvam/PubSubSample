@@ -1,4 +1,4 @@
-﻿namespace PubSubSample
+﻿namespace PubSubSample.Managers
 {
     public interface IManager
     {

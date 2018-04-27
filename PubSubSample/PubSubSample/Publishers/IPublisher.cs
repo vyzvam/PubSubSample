@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using PubSubSample.Subscribers;
+using System.Collections.Generic;
 
-namespace PubSubSample
+namespace PubSubSample.Publishers
 {
     public interface IPublisher
     {

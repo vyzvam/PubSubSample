@@ -1,7 +1,8 @@
 ﻿
+using PubSubSample.Publishers;
 using System;
 
-namespace PubSubSample
+namespace PubSubSample.Subscribers
 {
     public class ShellSubscriber : ISubscriber
     {
