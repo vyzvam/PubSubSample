@@ -25,7 +25,7 @@ To view the simple demo, please checkout to the dev-01-simple branch.
 ## Components
 
 ### Program
-The program.cs contains the Main function (client) that uses the
+The program.cs contains the Main function (client) that uses the PubSubManager
 
 ### PubSubManager
 The role of the PubSubManager is to contain business logic pertaining to the business rules and use case. It ties the service layer components together to fit the required work-flow. It implements the IManager to adhere to a particular standard (possibly the company standard)
@@ -54,7 +54,7 @@ A pseudo service that can be used to send console messages
 A pseudo service that can implement a sms library to send short messages
 to subscribers.
 
-###ValidationProvider
+### ValidationProvider
 A simple validation provider PublisherValidator is available
 to validate publisher data.
 
