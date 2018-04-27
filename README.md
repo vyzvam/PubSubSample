@@ -2,7 +2,7 @@
 
 This is a PubSub (observer pattern) demonstration
 
-##Prelude
+## Prelude
 PubSub stands for publish and subscribe. it is a pattern
 where sender of message(s) referred to as publishers will send the messages
 to it's recipient(s) also referred to as subscribers.
