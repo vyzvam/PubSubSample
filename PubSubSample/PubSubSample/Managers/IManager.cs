@@ -2,7 +2,7 @@
 {
     public interface IManager
     {
-        void Execute();
+        void Start();
     }
 
 }

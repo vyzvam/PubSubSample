@@ -7,7 +7,7 @@ namespace PubSubSample.Publishers
     {
         string Sender { get; set; }
         string Data { get; set; }
-        void Notify();
+        bool? Notify();
         void AddSubscriber(ISubscriber subscriber);
         void RemoveSubscriber(ISubscriber subscriber);
 

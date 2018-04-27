@@ -4,7 +4,7 @@ namespace PubSubSample.Subscribers
 {
     public interface ISubscriber
     {
-        void Receive(IPublisher subject);
+        bool Receive(IPublisher subject);
     }
 
 }

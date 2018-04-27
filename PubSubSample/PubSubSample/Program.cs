@@ -14,7 +14,7 @@ namespace PubSubSample
 
             var publisher = new Message("Suba");
             var manager = new PubSubManager(publisher);
-            manager.Execute();
+            manager.Start();
 
             Console.WriteLine("What is your message?:");
             publisher.Data = Console.ReadLine();

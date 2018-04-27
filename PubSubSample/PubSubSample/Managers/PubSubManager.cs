@@ -5,6 +5,9 @@ using System.Collections.Generic;
 
 namespace PubSubSample.Managers
 {
+    /// <summary>
+    /// A manager that handles the workflow of the pubsub procedures
+    /// </summary>
     public class PubSubManager : IManager
     {
         private readonly IPublisher _publisher;
@@ -16,7 +19,6 @@ namespace PubSubSample.Managers
         {
             _pubService = new PublisherService();
             _publisher = _pubService.Serve();
-
             _subService = new ListAllSubscriberService();
             _subscribers = _subService.Serve();
         }
@@ -34,7 +36,7 @@ namespace PubSubSample.Managers
             _subscribers = subscribers;
         }
 
-        public void Execute()
+        public void Start()
         {
             _publisher.AddSubscribers(_subscribers);
         }

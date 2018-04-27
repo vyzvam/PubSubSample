@@ -16,7 +16,7 @@ This demonstration is done in c# and does not use external components.
 
 ## Prerequisites
 1. Visual Studio 2017 (recommended), at least community edition
-1. .Net Framework 4.6 
+1. .Net Framework 4.6
 2. NUnit 3.10.1
 3. NUnit3TestAdapter 3.10.0
 
@@ -24,7 +24,7 @@ This demonstration is done in c# and does not use external components.
 ## Components
 
 ### Program
-The program.cs contains the Main function (client) that uses the 
+The program.cs contains the Main function (client) that uses the
 
 ### PubSubManager
 The role of the PubSubManager is to contain business logic pertaining to the business rules and use case. It ties the service layer components together to fit the required work-flow. It implements the IManager to adhere to a particular standard (possibly the company standard)

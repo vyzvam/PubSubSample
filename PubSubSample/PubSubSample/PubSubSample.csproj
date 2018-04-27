@@ -56,6 +56,8 @@
     <Compile Include="Subscribers\RESTSubscriber.cs" />
     <Compile Include="Subscribers\ShellSubscriber.cs" />
     <Compile Include="Subscribers\SmsSubscriber.cs" />
+    <Compile Include="ValidationProviders\IValidate.cs" />
+    <Compile Include="ValidationProviders\PublisherValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
