@@ -39,3 +39,16 @@ Service that retrieves and provides a list of subscribers. It Implements IServic
 ### PublisherService
 Service that retrieves the publisher. It Implements IService
 
+### EmailSubscriber
+A pseudo service that can be used to implement an email library
+to send data to email subscribers
+
+### RESTSubscriber
+A pseudo service that can be used to implement REST API calls
+
+### ShellSubscriber
+A pseudo service that can be used to send console messages
+
+### SmsSubscriber
+A pseudo service that can implement a sms library to send short messages
+to subscribers.
